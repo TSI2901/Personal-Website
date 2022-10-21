@@ -1,0 +1,89 @@
+body {
+    background: url("images/doodad.png");
+}
+#container {
+    width: 69%;
+    height: 69%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-bottom: 3%;
+    
+}
+#body{
+    display: flex;
+    justify-content: space-evenly;
+}
+header{
+    font-size: 280%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#body{
+    background-color:aliceblue;
+    font-size: 20px;
+    padding: 10px;
+}
+#profile{
+    float: left;
+    width: 30%;
+}
+#school{
+    float: left;
+    width: 30%;
+}
+#school h3{
+    text-align: center;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    width: 76%;
+}
+#school img{
+    margin-left: 0%;
+    border: 3px solid black;
+}
+#profile h3{
+    text-align: center;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    width: 76%;
+}
+#profile img{
+    margin-left: 0%;
+    border: 3px solid black;
+}
+#bio{
+    padding: 10px;
+    float: right;
+    width: 65%;
+}
+footer{
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+ul{
+    list-style-type: none;
+    padding: 5%;
+}
+#moreInfo{
+    display: none;
+
+}
+#bio h4{
+    text-align: center;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+#education button{
+    text-align: center;
+    padding: 1%;
+    background-color: white;
+    width: 100%;
+}
